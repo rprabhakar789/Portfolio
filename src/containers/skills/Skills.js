@@ -18,11 +18,18 @@ export default function Skills() {
         <Fade left duration={1000}>
           <div className="skills-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={codingPerson} />
+            /*  <DisplayLottie animationData={codingPerson} /> */
+            <img
+              alt="A cat coding"
+              style={{"height":"400px","width":"400px","borderRadius":"50%"}}
+              src={require("../../assets/images/coding-1.gif")}
+            ></img>
+
             ) : (
               <img
                 alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
+                style={{"borderRadius":"50%"}}
+                src={require("../../assets/images/rahul-laptop1.jpg")}
               ></img>
             )}
           </div>

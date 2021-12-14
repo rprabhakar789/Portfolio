@@ -34,9 +34,6 @@
   margin: 0;
   font-size: 28px;
   font-weight: 700;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
   height: 27px;
 }
 
@@ -48,7 +45,11 @@
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
 }
-
+.education-img {
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+}
 .education-card-right {
   max-width: 70%;
 }
@@ -128,7 +129,8 @@
     margin-right: 0;
   }
   .education-text-bullets > ul {
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
+    text-align: left;
   }
 }

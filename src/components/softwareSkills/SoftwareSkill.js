@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from 'react-dom';
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
 
@@ -14,7 +15,11 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                {
+                  skills.fontAwesomeClassname!=""?
+                  <i className={skills.fontAwesomeClassname}></i>:
+                  skills.link
+                }
                 <p>{skills.skillName}</p>
               </li>
             );

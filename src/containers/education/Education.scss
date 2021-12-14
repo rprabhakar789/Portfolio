@@ -16,6 +16,25 @@
   flex: 1;
   margin-bottom: 30px;
 }
+.education-main-div {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.education-main-div{
+  display:flex;
+  max-width: 100%;
+}
+.education-main-div > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.education-image-div > img {
+  max-width: 100%;
+  height: auto;
+}
 
 .education-card-container {
   display: flex;

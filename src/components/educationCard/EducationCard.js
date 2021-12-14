@@ -21,20 +21,23 @@ export default function EducationCard({school}) {
     console.error(`Image of ${school.name} is missing in education section`);
   return (
     <div>
-      <Fade left duration={1000}>
+      <Fade duration={1000}>
         <div className="education-card">
           <div className="education-card-left">
+          {
+            school.logo?
             <img
               crossOrigin={"anonymous"}
               ref={imgRef}
-              className="education-roundedimg"
+              className="education-img"
               src={school.logo}
               alt={school.schoolName}
-            />
+            />:""
+          }
           </div>
           <div className="education-card-right">
             <h5 className="education-text-school">{school.schoolName}</h5>
-
+            <br/>
             <div className="education-text-details">
               <h5
                 className={

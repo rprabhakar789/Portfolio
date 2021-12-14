@@ -10,14 +10,15 @@
 }
 .meter > span {
   display: block;
-  height: 100%;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   background-color: $progressBarSpanBG;
   position: relative;
-  overflow: hidden;
+  vertical-align: middle;
+  line-height: normal;
+  overflow: auto;
 }
 .skill {
   line-height: 3.5vw;

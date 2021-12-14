@@ -1,6 +1,7 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import codechef from "..//..//assets//images//codechef-logo.jpg"
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -125,6 +126,17 @@ export default function socialMedia() {
         >
           <i className="fab fa-kaggle"></i>
           <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.codechef ? (
+        <a
+          href={socialMediaLinks.codechef}
+          className="icon-button codechef"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <img height="40px" width="40px" src={codechef} alt="codechef"/>
         </a>
       ) : null}
     </div>
