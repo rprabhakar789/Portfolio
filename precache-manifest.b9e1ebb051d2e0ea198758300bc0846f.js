@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "864bc82526ccf187bd26df9db8675b54",
+    "revision": "78ffce029759e38623f9911bc96ea8a5",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "df2f565cea2c8f5f85c0",
+    "revision": "8865f04c1e4438716ecb",
     "url": "/Portfolio/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "d64087f105d9beceba23",
+    "revision": "345d2160218450ce7e04",
     "url": "/Portfolio/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "7e6feacd83901a934c77",
+    "revision": "01bd50af673195845946",
     "url": "/Portfolio/static/css/main.6e3701c9.chunk.css"
   },
   {
-    "revision": "c7a6cc3feed60c4d7987",
-    "url": "/Portfolio/static/js/2.be1c91a1.chunk.js"
+    "revision": "2360bfd97e7ee234d50e",
+    "url": "/Portfolio/static/js/2.856abd23.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/Portfolio/static/js/2.be1c91a1.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.856abd23.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df2f565cea2c8f5f85c0",
-    "url": "/Portfolio/static/js/3.65f3e508.chunk.js"
+    "revision": "8865f04c1e4438716ecb",
+    "url": "/Portfolio/static/js/3.5c16a294.chunk.js"
   },
   {
-    "revision": "d64087f105d9beceba23",
-    "url": "/Portfolio/static/js/4.b828ba87.chunk.js"
+    "revision": "345d2160218450ce7e04",
+    "url": "/Portfolio/static/js/4.776c0ee5.chunk.js"
   },
   {
-    "revision": "7e6feacd83901a934c77",
-    "url": "/Portfolio/static/js/main.b1b399cb.chunk.js"
+    "revision": "01bd50af673195845946",
+    "url": "/Portfolio/static/js/main.6dea835f.chunk.js"
   },
   {
-    "revision": "b00ef002c044f5c97bfc",
-    "url": "/Portfolio/static/js/runtime-main.04f3429c.js"
+    "revision": "b1a3c2585ad75f15ebda",
+    "url": "/Portfolio/static/js/runtime-main.fbfb2ed0.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -90,10 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ff84e5c5c74bc94cdc6e5757711bbada",
     "url": "/Portfolio/static/media/rahul-laptop1.ff84e5c5.jpg"
-  },
-  {
-    "revision": "3440939881da8339d1597e8d77cdf850",
-    "url": "/Portfolio/static/media/skill.34409398.svg"
   },
   {
     "revision": "200091fa33d8645f79868e3ad093e003",
